@@ -1,0 +1,13 @@
+# 2 concurrent requests
+./concurrent-api-requests.sh 'https://094f-13-68-146-155.ngrok-free.app' 2
+
+
+# 3 concurrent requests
+./concurrent-api-requests.sh 'https://094f-13-68-146-155.ngrok-free.app' 3
+
+# 4 concurrent requests
+./concurrent-api-requests.sh 'https://094f-13-68-146-155.ngrok-free.app' 4
+
+# 5 concurrent requests
+./concurrent-api-requests.sh 'https://094f-13-68-146-155.ngrok-free.app' 5
+

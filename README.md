@@ -21,16 +21,16 @@ We will use the default [llama-api-server](https://github.com/second-state/Llama
 
 ## Benchmarks
 
-| Provider      | Processor     | Inference RAM | LLM | Context length | LlamaEdge workers | Concurrent API clients | Prompt processing tokens / sec | Text generation tokens /s | 
-| ------------- | ------------- | ------------- | --- | -------------- | ----------------- | ---------------------- | ------------------------------ | ------------------------- |
-| Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | llama2-chat 7B Q5_k_m | 1024 | 2 | 4 | 152 | 17 |
-| Jetson Orin 64GB  | Nvidia AGX  | 64GB | llama2-chat 7B Q5_k_m | 1024 | 10 | 20 | TBD | TBD |
-| Jetson Orin 64GB  | Nvidia AGX  | 64GB | llama2-chat 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
-| Macbook  | Apple M2  | 16GB | llama2-chat 7B Q5_k_m | 1024 | 2 | 4 | TBD | TBD |
-| OpenBayes | Nvidia A100 | 80GB | llama2-chat 7B Q5_k_m | 1024 | 12 | 24 | TBD | TBD |
-| OpenBayes | Nvidia A100 | 80GB | llama2-chat 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
-| OpenBayes | Nvidia A6000 x4 | 192GB | llama2-chat 7B Q5_k_m | 1024 | 32 | 64 | TBD | TBD |
-| OpenBayes | Nvidia A6000 x4 | 192GB | llama2-chat 13B Q5_k_m | 1024 | 16 | 32 | TBD | TBD |
-| OpenBayes | Nvidia RTX 4090 x4 | 96GB | llama2-chat 7B Q5_k_m | 1024 | 16 | 32 | TBD | TBD |
-| OpenBayes | Nvidia RTX 3090 x4 | 96GB | llama2-chat 7B Q5_k_m | 1024 | 16 | 32 | TBD | TBD |
+| Provider      | Processor     | Inference RAM | LLM (llama2-chat) | Context length | LlamaEdge workers | Concurrent API clients | Prompt processing tokens / sec | Text generation tokens /s | 
+| ------------- | ------------- | ------------- | ----------------- | -------------- | ----------------- | ---------------------- | ------------------------------ | ------------------------- |
+| Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B Q5_k_m | 1024 | 2 | 4 | 152 | 17 |
+| Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B Q5_k_m | 1024 | 10 | 20 | TBD | TBD |
+| Jetson Orin 64GB  | Nvidia AGX  | 64GB | 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
+| Macbook  | Apple M2  | 16GB | 7B Q5_k_m | 1024 | 2 | 4 | TBD | TBD |
+| OpenBayes | Nvidia A100 | 80GB | 7B Q5_k_m | 1024 | 12 | 24 | TBD | TBD |
+| OpenBayes | Nvidia A100 | 80GB | 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
+| OpenBayes | Nvidia A6000 x4 | 192GB | 7B Q5_k_m | 1024 | 32 | 64 | TBD | TBD |
+| OpenBayes | Nvidia A6000 x4 | 192GB | 13B Q5_k_m | 1024 | 16 | 32 | TBD | TBD |
+| OpenBayes | Nvidia RTX 4090 x4 | 96GB | 7B Q5_k_m | 1024 | 16 | 32 | TBD | TBD |
+| OpenBayes | Nvidia RTX 3090 x4 | 96GB | 7B Q5_k_m | 1024 | 16 | 32 | TBD | TBD |
 

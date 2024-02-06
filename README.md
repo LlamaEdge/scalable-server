@@ -27,6 +27,10 @@ We will use the default [llama-api-server](https://github.com/second-state/Llama
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B Q5_k_m | 1024 | 10 | 20 | TBD | TBD |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
 | Macbook  | Apple M2  | 16GB | 7B Q5_k_m | 1024 | 2 | 4 | TBD | TBD |
+| Macbook  | Apple M2  | 32GB | 7B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
+| Macbook  | Apple M2  | 32GB | 13B Q5_k_m | 1024 | 3 | 6 | TBD | TBD |
+| Macbook  | Apple M3  | 64GB | 7B Q5_k_m | 1024 | 10 | 20 | TBD | TBD |
+| Macbook  | Apple M3  | 64GB | 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
 | OpenBayes | Nvidia A100 | 80GB | 7B Q5_k_m | 1024 | 12 | 24 | TBD | TBD |
 | OpenBayes | Nvidia A100 | 80GB | 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
 | OpenBayes | Nvidia A6000 x4 | 192GB | 7B Q5_k_m | 1024 | 32 | 64 | TBD | TBD |

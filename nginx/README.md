@@ -24,9 +24,6 @@ Download the API server.
 
 ```
 curl -LO https://github.com/second-state/LlamaEdge/releases/latest/download/llama-api-server.wasm
-curl -LO https://github.com/second-state/chatbot-ui/releases/latest/download/chatbot-ui.tar.gz
-tar xzf chatbot-ui.tar.gz
-rm chatbot-ui.tar.gz
 ```
 
 Start the API servers. Each of these is an OpenAI compatible API server. We just start them on different hosts and ports.
@@ -146,6 +143,6 @@ The following script starts 4 concurrent threads for continous requests. It shou
 
 ```
 cd ../scripts
-./concurrent-api-requests.sh 'https://094f-13-68-146-155.ngrok-free.app' 4
+./concurrent-api-requests.sh 'https://c1b5-13-68-146-155.ngrok-free.app' 4
 ```
 

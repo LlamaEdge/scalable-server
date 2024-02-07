@@ -27,8 +27,8 @@ All models are `llama2-chat` with `Q5_K_M` quantization.
 * tg - Text generation tokens / sec
 * Throughput - Total text generation tokens /sec
 
-| Provider      | Processor     | Inference RAM | LLM | Context length | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
-| ------------- | ------------- | ------------- | --- | -------------- | ----------------- | ---------------------- | -- | -- | ---------- |
+| Provider      | Processor     | RAM | LLM | Context length | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
+| ------------- | ------------- | --- | --- | -------------- | ----------------- | ---------------------- | -- | -- | ---------- |
 | Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B | 1024 | 2 | 4 | 152 | 17 | 34 |
 | OpenBayes | Nvidia RTX 4090 | 24GB | 7B | 1024 | 4 | 8 | 667 | 32 | 128 |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B | 1024 | 10 | 20 | TBD | TBD | TBD |

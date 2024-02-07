@@ -27,21 +27,21 @@ All models are `llama2-chat` with `Q5_K_M` quantization.
 * tg - Text generation tokens / sec
 * Throughput - Total text generation tokens /sec
 
-| Provider      | Processor     | RAM | LLM | Context length | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
-| ------------- | ------------- | --- | --- | -------------- | ----------------- | ---------------------- | -- | -- | ---------- |
-| Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B | 1024 | 2 | 4 | 152 | 17 | 34 |
-| OpenBayes | Nvidia RTX 4090 | 24GB | 7B | 1024 | 4 | 8 | 667 | 32 | 128 |
-| Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B | 1024 | 10 | 20 | TBD | TBD | TBD |
-| Jetson Orin 64GB  | Nvidia AGX  | 64GB | 13B | 1024 | 6 | 12 | TBD | TBD | TBD |
-| Macbook  | Apple M2  | 16GB | 7B | 1024 | 2 | 4 | TBD | TBD | TBD |
-| Macbook  | Apple M2  | 32GB | 7B | 1024 | 6 | 12 | TBD | TBD | TBD |
-| Macbook  | Apple M2  | 32GB | 13B | 1024 | 3 | 6 | TBD | TBD | TBD |
-| Macbook  | Apple M3  | 64GB | 7B | 1024 | 10 | 20 | TBD | TBD | TBD |
-| Macbook  | Apple M3  | 64GB | 13B | 1024 | 6 | 12 | TBD | TBD | TBD |
-| OpenBayes | Nvidia A100 | 80GB | 7B | 1024 | 12 | 24 | TBD | TBD | TBD |
-| OpenBayes | Nvidia A100 | 80GB | 13B | 1024 | 6 | 12 | TBD | TBD | TBD |
-| OpenBayes | Nvidia A6000 x4 | 192GB | 7B | 1024 | 32 | 64 | TBD | TBD | TBD |
-| OpenBayes | Nvidia A6000 x4 | 192GB | 13B | 1024 | 16 | 32 | TBD | TBD | TBD |
-| OpenBayes | Nvidia RTX 4090 x4 | 96GB | 7B | 1024 | 16 | 32 | TBD | TBD | TBD |
-| OpenBayes | Nvidia RTX 3090 x4 | 96GB | 7B | 1024 | 16 | 32 | TBD | TBD | TBD |
+| Provider      | Processor     | RAM | LLM | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
+| ------------- | ------------- | --- | --- | ----------------- | ---------------------- | -- | -- | ---------- |
+| Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B | 2 | 4 | 152 | 17 | 34 |
+| OpenBayes | Nvidia RTX 4090 | 24GB | 7B | 4 | 8 | 667 | 32 | 128 |
+| Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B | 10 | 20 | TBD | TBD | TBD |
+| Jetson Orin 64GB  | Nvidia AGX  | 64GB | 13B | 6 | 12 | TBD | TBD | TBD |
+| Macbook  | Apple M2  | 16GB | 7B | 2 | 4 | TBD | TBD | TBD |
+| Macbook  | Apple M2  | 32GB | 7B | 6 | 12 | TBD | TBD | TBD |
+| Macbook  | Apple M2  | 32GB | 13B | 3 | 6 | TBD | TBD | TBD |
+| Macbook  | Apple M3  | 64GB | 7B | 10 | 20 | TBD | TBD | TBD |
+| Macbook  | Apple M3  | 64GB | 13B | 6 | 12 | TBD | TBD | TBD |
+| OpenBayes | Nvidia A100 | 80GB | 7B | 12 | 24 | TBD | TBD | TBD |
+| OpenBayes | Nvidia A100 | 80GB | 13B | 6 | 12 | TBD | TBD | TBD |
+| OpenBayes | Nvidia A6000 x4 | 192GB | 7B | 32 | 64 | TBD | TBD | TBD |
+| OpenBayes | Nvidia A6000 x4 | 192GB | 13B | 16 | 32 | TBD | TBD | TBD |
+| OpenBayes | Nvidia RTX 4090 x4 | 96GB | 7B | 16 | 32 | TBD | TBD | TBD |
+| OpenBayes | Nvidia RTX 3090 x4 | 96GB | 7B | 16 | 32 | TBD | TBD | TBD |
 

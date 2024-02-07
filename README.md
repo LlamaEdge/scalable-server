@@ -24,6 +24,7 @@ We will use the default [llama-api-server](https://github.com/second-state/Llama
 | Provider      | Processor     | Inference RAM | LLM (llama2-chat) | Context length | LlamaEdge workers | Concurrent API clients | Prompt processing tokens / sec | Text generation tokens /s | 
 | ------------- | ------------- | ------------- | ----------------- | -------------- | ----------------- | ---------------------- | ------------------------------ | ------------------------- |
 | Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B Q5_k_m | 1024 | 2 | 4 | 152 | 17 |
+| OpenBayes | Nvidia RTX 4090 | 24GB | 7B Q5_k_m | 1024 | 4 | 8 | 667 | 32 |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B Q5_k_m | 1024 | 10 | 20 | TBD | TBD |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 13B Q5_k_m | 1024 | 6 | 12 | TBD | TBD |
 | Macbook  | Apple M2  | 16GB | 7B Q5_k_m | 1024 | 2 | 4 | TBD | TBD |

@@ -1,12 +1,12 @@
 # Creating a scalable LlamaEdge API server
 
-[LlamaEdge](https://www.secondstate.io/LlamaEdge/) is an app development platform. Use it to create your own "Assistants" APIs or apps that tie together multiple custom fine-tuned models, specialized multimodal models, document ingest algorithms, vector databases, search algorithms, prompt assembly algoithms, and external SaaS API calls. The LlamaEdge apps are portable even across GPUs -- you can develop and test your app on a Macbook and deploy it on an Nvidia device.
+[LlamaEdge](https://www.secondstate.io/LlamaEdge/) is an app development platform. Use it to create your own 'Assistants' APIs or apps that tie together multiple custom fine-tuned models, specialized multimodal models, document ingest algorithms, vector databases, search algorithms, prompt assembly algoithms, and external SaaS API calls. The LlamaEdge apps are *portable even across GPUs* -- you can develop and test your app on a Macbook and deploy it on an Nvidia device.
 
-For simple use cases, it also provides an OpenAI compatible API server out of the box through the [llama-api-server](https://github.com/second-state/LlamaEdge/tree/main/api-server) project, which allows it to serve as [a backend in frameworks like LangChain](https://github.com/langchain-ai/langchain/pull/14787). The key benefit of LlamaEdge over other OpenAI compatible servers is its portability
+For simple use cases, it also provides an OpenAI compatible API server out of the box through the [llama-api-server](https://github.com/second-state/LlamaEdge/tree/main/api-server) project, which allows it to serve as [a backend in frameworks like LangChain](https://github.com/langchain-ai/langchain/pull/14787). The key benefit of LlamaEdge over other OpenAI compatible servers is its ease-of-use.
 
-* The same binary app runs on a variety of different CPU and GPU devices from server to edge. 
-* The app can select from alternative inference frameworks (e.g., llama.cpp or MLX, plain CUDA or TensorRT) through runtime configuration, as opposed to code changes, to optimize the server performance for the specific use case. 
-* The app itself is already sandboxed and ready for Kubernetes without the hassle of special containers, shims and binary builds.
+* *Easy to setup.* A simple installer for a variety of different CPU and GPU devices from server to edge. 
+* *Easy to customize.* The server can switch between inference frameworks (e.g., llama.cpp or MLX, plain CUDA or TensorRT) through *runtime configuration* to optimize performance for the specific use case. 
+* *Easy to orchestrate.* The server itself is already sandboxed and ready for Kubernetes without the hassle of special containers, shims and binary builds.
 
 LlamaEdge makes it possible to offer rich API services from a network of heterogeneous devices with a vaiety of CPUs, GPUs, NPUs, and OSes. In this repo, we will showcase how to run a scalable inference server with multiple LlamaEdge workers on the backend serving concurrent API users. We provide instructions, configuration files, and testing scripts for running your own LlamaEdge API server in production. The server will support multiple concurrent inference workers distributed across
 

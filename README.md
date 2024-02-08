@@ -6,6 +6,7 @@
 
 For simple use cases, it also provides an OpenAI compatible API server out of the box through the [llama-api-server](https://github.com/second-state/LlamaEdge/tree/main/api-server) project, which allows it to serve as [a backend in frameworks like LangChain](https://github.com/langchain-ai/langchain/pull/14787). The key benefits of LlamaEdge over other OpenAI compatible servers are easy deployment and management.
 
+* *Lightweight and simple.* There is no complex Python dependenices. The total package with all dependencies is less than 30MB, as opposed to 5GB for a PyTorch container.
 * *Easy to setup.* A simple installer for a variety of different CPU and GPU devices from server to edge. 
 * *Selection of backends.* The server can switch between inference frameworks (e.g., llama.cpp or MLX, plain CUDA or TensorRT) through *runtime configuration* to optimize performance for the specific use case. 
 * *Cloud-native orchestration.* The server itself is already sandboxed and ready for Kubernetes without the hassle of special containers, shims and binary builds.

@@ -30,8 +30,8 @@ All models are `llama2-chat` with `Q5_K_M` quantization.
 | Provider      | Processor     | RAM | LLM | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
 | ------------- | ------------- | --- | --- | ----------------- | ---------------------- | -- | -- | ---------- |
 | Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B | 2 | 4 | 152 | 17 | 34 |
-| OpenBayes | Nvidia RTX 4090 | 24GB | 7B | 4 | 8 | 667 | 32 | 128 |
-| OpenBayes | Nvidia RTX 4090 | 24GB | 13B | 2 | 4 | 666 | 30 | 60 |
+| OpenBayes | Nvidia RTX 4090 | 24GB | 7B | 4 | 8 | 667 | 32 | 129 |
+| OpenBayes | Nvidia RTX 4090 | 24GB | 13B | 2 | 4 | 666 | 31 | 76 |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B | 10 | 20 | TBD | TBD | TBD |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 13B | 6 | 12 | TBD | TBD | TBD |
 | Macbook  | Apple M2  | 16GB | 7B | 2 | 4 | TBD | TBD | TBD |

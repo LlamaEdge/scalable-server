@@ -1,6 +1,6 @@
 # Scalable LlamaEdge API server
 
-[LlamaEdge](https://www.secondstate.io/LlamaEdge/) is an app development platform. Use it to create your own `Assistants` APIs or apps that tie together multiple custom fine-tuned models, specialized multimodal models, document ingest algorithms, vector databases, search algorithms, prompt assembly algoithms, and external SaaS API calls. The LlamaEdge apps are **portable even across GPUs** -- you can develop and test your app on a Macbook and deploy it on an Nvidia device.
+[LlamaEdge](https://www.secondstate.io/LlamaEdge/) is an app development platform. Use it to create your own `Assistants` APIs or apps that tie together multiple custom fine-tuned models, specialized multimodal models, document ingest algorithms, vector databases, search algorithms, prompt assembly algoithms, and external SaaS API calls. The LlamaEdge apps are **portable even across GPUs** -- you can develop and test your app on a Macbook and deploy it on an Nvidia device. To learn more about how to create your own LLM inference apps using Rust and LlamaEdge, [check out our examples](https://github.com/second-state/WasmEdge-WASINN-examples/tree/master/wasmedge-ggml).
 
 For simple use cases, it also provides an OpenAI compatible API server out of the box through the [llama-api-server](https://github.com/second-state/LlamaEdge/tree/main/api-server) project, which allows it to serve as [a backend in frameworks like LangChain](https://github.com/langchain-ai/langchain/pull/14787). The key benefits of LlamaEdge over other OpenAI compatible servers are easy deployment and management.
 
@@ -30,6 +30,7 @@ All models are `llama2-chat` with `Q5_K_M` quantization.
 | Provider      | Processor     | RAM | LLM | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
 | ------------- | ------------- | --- | --- | ----------------- | ---------------------- | -- | -- | ---------- |
 | Azure NC4as T4 v3  | Nvidia Tesla T4  | 16GB | 7B | 2 | 4 | 152 | 17 | 34 |
+| AWSg5.xlarge  | Nvidia A10G  | 24GB | 7B | 4 | 8 | ... | 17 | 71 |
 | OpenBayes | Nvidia RTX 4090 | 24GB | 7B | 4 | 8 | 667 | 32 | 129 |
 | OpenBayes | Nvidia RTX 4090 | 24GB | 13B | 2 | 4 | 666 | 31 | 76 |
 | Jetson Orin 64GB  | Nvidia AGX  | 64GB | 7B | 10 | 20 | TBD | TBD | TBD |

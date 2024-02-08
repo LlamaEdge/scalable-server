@@ -27,7 +27,7 @@ All models are `llama2-chat` with `Q5_K_M` quantization.
 
 * pp - Prompt processing tokens / sec for each worker at max concurrency
 * tg - Text generation tokens / sec for each worker at max concurrency
-* Throughput - Max text generation tokens /sec for a worker
+* Throughput - Max text generation tokens /sec for a single worker
 
 | Provider      | Processor     | RAM | LLM | LlamaEdge workers | Concurrent API clients | pp | tg | Throughput |
 | ------------- | ------------- | --- | --- | ----------------- | ---------------------- | -- | -- | ---------- |
